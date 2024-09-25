@@ -114,6 +114,9 @@ parse_config(void)
     limitation_node_t* curr_node = cgroup_first;
 
     f = fopen("pg_isolate.json", "r");
+    if(!f){
+        return NULL;
+    }
 
     fseek(f, 0, SEEK_END);
     size = ftell(f);

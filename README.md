@@ -29,7 +29,7 @@ Config has following structure
 
 - `example` - name of cgroup
 - Backend created for `database` and `user` will be placed into following cgroup 
-- If `default` specified backends that hasn't match to some cgroup will be places here
+- If `default` specified, backends that hasn't match to some cgroup will be places here
 
 ### Launch 
 
